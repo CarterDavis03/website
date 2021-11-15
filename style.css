@@ -1,0 +1,47 @@
+body {
+    background-color: #ff8000;
+    margin: 0;
+    font-family: 'Roboto', sans-serif; 
+}
+
+h1, h2 {
+    color: white; 
+    margin: 15px;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 450%;
+}
+
+h2 {
+    font-size: 250%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 200%;
+    font-weight: 100;
+    margin: 15px;
+}
+
+a i{
+    color: black;
+    margin-right: 10px;
+}
